@@ -17,8 +17,9 @@ function OnTriggerEnter(other : Collider){
 		playerScore++;
 		Destroy(other.gameObject);
 	}
+}
 
-function OnCollisionEnter (theCollision : Collider)
+function OnCollisionEnter (theCollision : Collision)
 {
 
 	if(theCollision.transform.tag == "win")

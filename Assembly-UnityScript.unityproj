@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{0339D9C7-8B98-123E-39E5-C8F9447BF289}</ProjectGuid>
+	<ProjectGuid>{3A425B2A-92BB-7E0B-C758-681BDD57B77E}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-UnityScript</AssemblyName>
@@ -49,7 +49,8 @@
      <Compile Include="Assets\Scripts\CameraScript.js" />
      <Compile Include="Assets\Scripts\JumpScript.js" />
      <Compile Include="Assets\Scripts\LOSE.js" />
-     <Compile Include="Assets\Scripts\PlayerSpeed.js" />
+     <Compile Include="Assets\Scripts\LiveSystem.js" />
+     <Compile Include="Assets\Scripts\PlayerScript.js" />
      <Compile Include="Assets\Scripts\ScoreScript.js" />
      <Compile Include="Assets\Scripts\movingPlatform.js" />
  <Reference Include="UnityEngine.Networking">

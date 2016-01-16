@@ -21,7 +21,7 @@ function OnCollisionEnter (theCollision: Collision)
 	
 	if(theCollision.transform.tag == "bounce")
 	{
-		gameObject.GetComponent(Rigidbody).AddForce(Vector3(0,1,0) * playerJump * 2);
+		gameObject.GetComponent(Rigidbody).AddForce(Vector3(0,1,0) * playerJump * 3);
 	}
 }
 

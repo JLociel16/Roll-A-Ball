@@ -5,6 +5,10 @@ var timer: float;
 var timeText: Text;
 var loseScreen: GameObject;
 
+function Start(){
+	loseScreen.SetActive(false);
+}
+
 function Update () 
 {
 	if(timer >=0)
